@@ -1,0 +1,623 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.d-Top {
+  height: 50px;
+  width: 100%;
+  background-color: #007aff;
+  color: white;
+}
+.d-Top h1 {
+  padding: 5px 0 5px 50px;
+}
+.d-Prt {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.d1-Left {
+  height: 350px;
+  width: 400px;
+  background-color: #007aff;
+  box-shadow: 10px 10px black;
+}
+
+.d2-Right {
+  color: black;
+  height: 280px;
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.d1-Left ul li {
+  /* text-align: center; */
+  color: white;
+  margin-left: 130px;
+  padding-bottom: 15px;
+}
+
+.d1-Left h1 {
+  color: white;
+  margin: 30px;
+}
+.hr1 {
+  width: 250px;
+  height: 1px;
+  background: black;
+}
+.d1-Left p {
+  text-align: center;
+  margin-top: 20px;
+}
+.d1-Left button {
+  background-color: #007aff;
+  color: white;
+  border-color: white;
+  border-radius: 8px;
+  border-width: 1px;
+  padding: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.userID {
+  margin-top: 30px;
+  padding: 5px;
+  width: 250px;
+}
+.d2-Right .Login {
+  margin-top: 30px;
+  color: #002b58;
+  font-size: 30px;
+}
+
+.d2-Right input {
+  color: black;
+}
+.F-Pass {
+  color: #007aff;
+  margin-right: -135px;
+  margin-top: 10px;
+  font-weight: 550;
+}
+
+.Bt-SBMT {
+  height: 30px;
+  width: 265px;
+  background-color: #002b58;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.Bt-SBMT:hover {
+  background-color: white;
+  color: #002b58;
+}
+
+/* -------------------Dashboard Page ---------------------------- */
+
+.ds-1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 20px 0 20px;
+}
+
+.D-Nav {
+  display: flex;
+  margin-left: 600px;
+}
+.navM {
+  height: 40px;
+  background-color: #480101;
+}
+
+.drp1 {
+  padding: 10.5px 10px;
+  background-color: #480101;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.hBrdr {
+  height: 60px;
+  background-color: #ffe3f0;
+}
+.hBrdr h2 {
+  padding-top: 15px;
+}
+
+.Box-1 {
+  margin-top: 50px;
+  height: 200px;
+  width: 1000px;
+  background-image: linear-gradient(
+    180deg,
+    rgb(16, 0, 192),
+    rgb(209, 219, 233)
+  );
+}
+.div1 {
+  margin-top: 30px;
+  height: 60px;
+  width: 280px;
+  background-color: rgb(6, 102, 150);
+  border-radius: 3px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.Box-2-p {
+  display: flex;
+  justify-content: space-between;
+}
+.div1 p {
+  padding: 6px;
+  color: #ffffff;
+}
+.Box-1 h1 {
+  padding-top: 20px;
+  color: #ffe3f0;
+}
+.div1:hover {
+  color: #000000;
+  cursor: pointer;
+  background-color: white;
+}
+.div1:hover {
+  background-color: rgb(0, 0, 0);
+}
+.div1 p:hover {
+  background-color: red;
+  color: #ffffff;
+}
+.Box-3 {
+  margin-top: 50px;
+  width: 1000px;
+}
+.Box-3-ch {
+  display: flex;
+  justify-content: space-between;
+}
+.Box-3-ch-L {
+  width: 480px;
+  height: 180px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.Box-3-ch-R {
+  width: 480px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.Box-3 p {
+  text-align: left;
+  padding: 8px 8px 8px 24px;
+}
+.Box-3 hr {
+  height: 7px;
+  width: 90%;
+  background-color: #007aff;
+  border: none;
+}
+
+.TBL tr td {
+  width: 200px;
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid grey;
+}
+
+/* -------------------Member Creation---------------- */
+
+.slctType {
+  height: 30px;
+  width: 120px;
+  background-color: grey;
+  border-radius: 2px;
+  color: #ffffff;
+}
+
+.form-T input {
+  margin-top: 10px;
+  padding: 5px;
+  width: 90px;
+}
+
+.btn-SBMT {
+  margin-top: 50px;
+  width: 100px;
+  height: 30px;
+  background-color: #480101;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+}
+table tr td input {
+  padding: 5px;
+  margin: 10px;
+}
+table tr label {
+  margin-left: 50px;
+}
+.rw1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.formDATA {
+  margin-left: 155px;
+  width: 1150px;
+}
+.rw1 input {
+  padding: 5px;
+}
+
+/* .Name-1 label {
+  margin-right: 90px;
+  width: 250px;
+} */
+.Name-1 {
+  margin-right: 90px;
+  width: 190px;
+}
+.btn-NXT button {
+  margin-top: 30px;
+  height: 30px;
+  width: 150px;
+  background-color: #480101;
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
+.ul-DIV ul {
+  display: flex;
+  justify-content: space-around;
+}
+.ul-DIV ul li {
+  list-style-type: none;
+}
+.ul-DIV-Nav {
+  width: 100%;
+  height: 150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+marquee {
+  margin-top: 20px;
+}
+marquee p {
+  color: red;
+}
+.Yellow-Line {
+  height: 8px;
+  margin-bottom: 10px;
+  background-color: rgb(255, 196, 0);
+  width: 1307px;
+  margin-left: 30px;
+}
+.rport p {
+  padding: 10px 0 10px 30px;
+}
+.hr-1 {
+  margin-top: 10px;
+  width: 1307px;
+  margin-left: 30px;
+}
+.p-NDA p {
+  padding: 10px 0 0 30px;
+}
+.hr-3 {
+  width: 1307px;
+  margin-left: 30px;
+}
+footer div {
+  margin-top: 20px;
+}
+
+/* ----------Card Management---------------- */
+.div-Pr1 {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  /* width: 1000px; */
+}
+
+.div-Pr1 div {
+  border-radius: 10px;
+  width: 300px;
+  background-color: rgb(226, 226, 226);
+}
+
+.div-Pr1 p {
+  padding: 30px;
+  line-height: 20px;
+}
+.div-Pr1 div:hover {
+  cursor: pointer;
+  background-color: rgb(200, 200, 200);
+}
+
+/* --------------AEPS------------------ */
+
+.div-Pr2 {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  /* width: 1000px; */
+}
+
+.div-Pr2 div {
+  border-radius: 10px;
+  width: 400px;
+  background-color: rgb(226, 226, 226);
+}
+
+.div-Pr2 p {
+  padding: 30px;
+  line-height: 20px;
+  line-height: 22px;
+}
+.div-Pr2 div:hover {
+  cursor: pointer;
+  background-color: rgb(200, 200, 200);
+}
+/* ------------My Commision----------------------- */
+.main-DIV {
+  width: 1000px;
+  border: 1px grey solid;
+  border-radius: 5px;
+  height: 900px;
+  margin-top: 20px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.btn-Widthdraw {
+  background-color: #73b7ff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.btn-Widthdraw:hover {
+  background-color: #74b5f9;
+}
+.allServices-div1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.allServices-div1-1 {
+  height: 100px;
+  width: 8px;
+  background-color: #063567;
+  border-radius: 5px;
+}
+.allServices-div1-2 {
+  height: 100px;
+  width: 350px;
+  background-color: #fe1010;
+  border-radius: 5px;
+}
+.allServices-div1-3 {
+  height: 100px;
+  width: 350px;
+  background-color: #008e4e;
+  border-radius: 5px;
+}
+.allServices-div1-4 {
+  height: 100px;
+  width: 600px;
+  background-color: #3394fc;
+  border-radius: 5px;
+}
+.allServices-div1-2-p1 {
+  padding: 10px 0 30px 20px;
+}
+.allServices-box {
+  margin-top: 20px;
+  width: 1320px;
+  height: auto;
+  border: 1px yellow solid;
+}
+.allServices-box-btn {
+  color: #ffffff;
+  background-color: #ffc107;
+  padding: 10px 35px;
+  margin-top: 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+.allServices-flex1 {
+  width: 1250px;
+  display: flex;
+  justify-content: center;
+}
+.allServices-flex1 img {
+  width: 100px;
+  margin-top: 25px;
+}
+.allServices-flex1-B {
+  margin: 10px 20px;
+  width: 160px;
+  height: 150px;
+  border: 1px solid rgb(188, 188, 188);
+  border-radius: 5px;
+}
+/* --------------------- DMT --------------------- */
+
+.DMT-Div {
+  height: 350px;
+  width: 800px;
+  border: 1px solid grey;
+  margin: auto;
+  margin-top: 20px;
+  /* border-radius: 5px; */
+}
+.mnyTSNFR-div {
+  background-color: #034d81;
+  font-size: 25px;
+}
+.mnyTSNFR-div p {
+  color: white;
+  padding: 5px 0 5px 10px;
+  font-weight: 500;
+}
+.input-div {
+  margin-top: 20px;
+}
+
+.INPT-accnt-numbr {
+  margin-top: 2px;
+  width: 760px;
+  height: 25px;
+  margin-left: 15px;
+  border: 1px solid rgb(182, 181, 181);
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 15px;
+}
+.DMT-Div label {
+  padding-left: 15px;
+}
+.inpt-bx-btn button {
+  width: 770px;
+  height: 35px;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.Profile_Image {
+  height: 300px;
+  width: 350px;
+  
+  /* border: 1px solid grey; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Profile-P {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 0 10px 100px;
+  background-color: #007aff;
+  height: 25px;
+}
+.Profile_Image img{
+  margin-left: 50px;
+}
+.Profile-N{
+  /* padding-left: 100px; */
+  text-align: center;
+}
+.Profile_Details{
+  height: 420px;
+  width: 800px;
+  /* border: 1px solid grey; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Profile-DIV{
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.Profile-D{
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 0 10px 100px;
+  background-color: #007aff;
+  height: 25px; 
+}
+.Profile_Details table{
+  margin-top: 40px;
+}
+.Profile_Details table tr td{
+  border: none;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hr-Footer{
+  margin: 10px 0 20px 0;
+}
+footer div{
+  height: 30px;
+}
+footer p{
+  text-align: center;
+}
+/* -----------------Password----------------- */
+.Pass-Div{
+  /* margin: auto; */
+  width: 320px;
+  height: 400px;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.chngePass-div{
+  background-color: blue;
+  height: 50px;
+  margin-bottom: 30px;
+}
+.chngePass-div p{
+  color: white;
+  font-size: 20px;
+  padding: 15px 0 15px 15px;
+}
+.INPT-curnt-pass{
+  padding-left: 10px;
+  margin-top: 5px;
+  margin-left: 18px;  
+  height: 33px;
+  width: 270px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.input-div-pass{
+  margin: 10px 0;
+}
+
+.inpt-password-btn button {
+  width: 277px;
+  height: 30px;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.input-div-pass label{
+  margin-left: 20px;
+}
+.setting-DIV p{
+  font-size: 40px;
+  color: #002b58;
+  font-weight: 700;
+  margin: 20px;
+}
